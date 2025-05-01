@@ -1,0 +1,183 @@
+*{
+ 
+    scroll-behavior: smooth;
+    }
+    
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px ;
+        backdrop-filter: blur(10px);
+       
+    }
+    .nav-links {
+        font-size: 24px;
+        list-style: none;
+        gap: 20px;
+        display: flex;
+        margin-right: 5%;
+        padding: 10px ;
+        justify-content: space-evenly;
+    }
+    .logo{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    body{
+        background-image: url(bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Roboto", sans-serif;
+    }
+    
+       
+    #image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      
+    }
+    #hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  /* Center vertically */
+        align-items: center;      /* Center horizontally */
+        height: 100vh; 
+    }
+    
+    
+    
+    button{
+        font-size: 15px;
+        padding: 15px;
+        background-color:rgb(95, 110, 240);
+        color: rgb(226, 232, 238);
+        border: none;  
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        text-align: center;
+        text-decoration: none;
+    }
+    button:hover{
+        background-color: rgb(229, 238, 235);
+    }
+    
+    
+    #projectlist{
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+        justify-content: center;
+        background-color: aliceblue;
+    }
+    #projectcard{
+        text-align: center;
+        font-size: 20px;
+        height: 300px;
+        width: 300px;
+        margin: 70px;
+        background-color:rgba(145, 194, 175, 0.582);
+        justify-content:center;
+        border-radius:50px;
+       color:rgb(15, 15, 14);
+    }
+    h1,h2{
+        font-size: 40px;
+        color: 5e3023;
+        text-align: center;
+    
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #projectlist1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+        justify-content: center;
+        background-color: aliceblue;
+    }
+    #projectcard1{
+        text-align: center;
+        font-size: 20px;
+        height: 300px;
+        width: 300px;
+        margin: 70px;
+        background-color:rgba(145, 194, 175, 0.582);
+        justify-content:center;
+        border-radius:50px;
+       color:rgb(15, 15, 14);
+    }
+    #form{
+        background-color: aliceblue;
+        justify-content:center;  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    #name{
+    
+        margin-bottom: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+    #email{
+        margin-bottom: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+    #number{
+        margin-bottom: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+    #comments{
+        margin-bottom: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+    .project{
+        background-color: aliceblue;
+        margin: 0%;
+    }
+    .project1{
+        margin: 0%;
+        background-color: aliceblue;
+    }
+    
+    
+    #sec-head{
+        margin: 0%;
+    }
+    
+    #projectname1{
+        color: rgb(13, 13, 14);
+    }
